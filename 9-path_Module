@@ -1,0 +1,9 @@
+// built-In path module
+const path = require('path')
+
+console.log(path.sep);
+
+const filePath = path.join( '/newFolder','subFolder','test.txt' )
+
+console.log(filePath);
+
